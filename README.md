@@ -10,26 +10,97 @@ This project focuses on predicting vehicle breakdown risk using historical fleet
 
 ## Executive Summary
 
-This project demonstrates how predictive analytics can improve logistics operations by identifying high-risk vehicles before breakdown occurs. By applying machine learning techniques, the model enables proactive maintenance strategies that reduce downtime, lower costs, and improve fleet reliability.
+This project evaluates machine learning approaches to predict vehicle breakdown risk in fleet operations.
 
-## Table of Contents
+While advanced models such as Random Forest were explored, the analysis revealed that Logistic Regression provided better performance in identifying breakdown events.
 
-- [Quick Start](#quick-start)
-- [Overview](#overview)
-- [Dataset](#dataset)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Results & Model Performance](#results--model-performance)
-- [Analysis & Visualizations](#analysis--visualizations)
-- [Key Insights](#key-insights)
-- [Future Improvements](#future-improvements)
-- [Conclusion](#conclusion)
-- [Author](#author)
-- [License](#license)
+This highlights that in logistics operations, simpler and more interpretable models can outperform more complex approaches when underlying patterns are relatively linear.
+
+The model enables proactive maintenance planning, reducing downtime and improving fleet reliability.
 
 ---
 
+## 📑 Table of Contents
+
+- [1. Business Problem](#1-business-problem)
+- [2. Dataset Overview](#2-dataset-overview)
+- [3. Data Preparation](#3-data-preparation)
+- [4. Exploratory Data Analysis](#4-exploratory-data-analysis)
+- [5. Model Development](#5-model-development)
+- [6. Model Comparison](#6-model-comparison)
+- [7. Business Impact](#7-business-impact)
+- [Full Technical Analysis](#-full-technical-analysis)
+---
+## 1. Business Problem
+
+Fleet breakdowns lead to:
+- Increased downtime
+- Higher maintenance costs
+- Service delivery disruptions
+
+Objective: Predict whether a vehicle is likely to break down before failure occurs.
+
+---
+
+## 2. Dataset Overview
+
+The dataset used in this analysis consists of simulated fleet operational data designed to reflect real-world logistics environments.
+
+### Key Variables:
+
+**Fleet & Routing Information**
+- `vehicle_id` – Unique identifier for each vehicle  
+- `driver_id` – Driver assigned to the vehicle  
+- `date` – Operational date  
+- `route_type` – Type of delivery route  
+
+**Operational Performance Metrics**
+- `total_stops` – Number of delivery stops per route  
+- `distance_km` – Total distance covered  
+- `delivery_time_hours` – Total delivery time  
+- `fuel_used_l` – Fuel consumption  
+
+**Service & Reliability Indicators**
+- `last_service_days` – Days since last maintenance  
+- `on_time_deliveries` – Number of on-time deliveries  
+- `late_deliveries` – Number of delayed deliveries  
+- `delivery_success_rate` – Percentage of successful deliveries  
+- `maintenance_cost` – Cost of vehicle maintenance  
+
+**Target Variable**
+- `breakdown` – Indicates whether a vehicle experienced a breakdown (1 = Yes, 0 = No)
+
+The combination of operational and maintenance variables enables both performance analysis and predictive modeling of breakdown risk.
+---
+
+## 3. Data Preparation
+
+Data preparation was performed to ensure quality, consistency, and suitability for modeling.
+
+### Key Steps:
+
+- **Data Type Validation**
+  - Verified correct data types for all columns (e.g., datetime for `date`, numerical for operational metrics)
+
+- **Handling Missing & Infinite Values**
+  - Checked for missing values and confirmed dataset completeness
+  - Replaced any potential infinite values and ensured clean numeric inputs
+
+- **Feature Selection**
+  - Removed non-predictive identifiers such as `vehicle_id` and `driver_id`
+  - Retained operational and maintenance variables relevant to breakdown prediction
+
+- **Target Variable Definition**
+  - Confirmed `breakdown` as the binary target variable (1 = breakdown, 0 = no breakdown)
+
+- **Data Consistency Checks**
+  - Ensured no duplicate records
+  - Validated logical consistency across operational metrics
+
+---
+
+The dataset was found to be clean and well-structured, requiring minimal preprocessing before analysis and modeling.
+This dataset structure reflects typical variables tracked in fleet management systems and was synthetically generated to simulate real-world maintenance and operational conditions.
 ## Quick Start
 
 Get up and running in 3 steps:
