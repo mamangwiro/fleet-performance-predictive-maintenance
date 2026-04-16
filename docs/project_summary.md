@@ -7,3 +7,9 @@ Using Python for data processing and machine learning, the project involved data
 The analysis identified key drivers of breakdown risk and enabled segmentation of the fleet into high, medium, and low-risk categories. A Power BI dashboard was developed to visualise fleet risk exposure, monitor key performance indicators, and support data-driven decision-making.
 
 The solution demonstrates how predictive analytics can be applied in logistics to optimise maintenance strategies, reduce operational costs, and enhance fleet reliability.
+
+Key Outcome:
+The Random Forest model achieved an accuracy of 78% in predicting vehicle breakdown risk, outperforming Logistic Regression (77%). The model demonstrated strong balance between precision and recall, enabling reliable identification of high-risk vehicles and supporting proactive maintenance planning.
+
+Model Insight:
+The Random Forest model showed improved recall for breakdown events, making it more suitable for operational use where early detection of potential failures is critical.
