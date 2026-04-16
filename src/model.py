@@ -1,7 +1,6 @@
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
-from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import StandardScaler
+from sklearn.ensemble import RandomForestClassifier
 
 def train_model(df):
 
@@ -15,33 +14,14 @@ def train_model(df):
         X, y, test_size=0.2, random_state=42
     )
 
-    # Build pipeline
-    pipeline = Pipeline([
-        ('scaler', StandardScaler()),
-        ('model', LogisticRegression(max_iter=1000, class_weight='balanced'))
-    ])
+    # 🔹 Logistic Regression
+    lr = LogisticRegression(max_iter=1000, class_weight='balanced')
+    lr.fit(X_train, y_train)
 
-    # Train model
-    pipeline.fit(X_train, y_train)
+    # 🔹 Random Forest
+    rf = RandomForestClassifier(n_estimators=100, random_state=42)
+    rf.fit(X_train, y_train)
 
-    # Predictions
-    y_prob = pipeline.predict_proba(X_test)[:, 1]
+    print("✅ Models trained successfully!")
 
-    # Risk classification
-    def classify_risk(prob):
-        if prob < 0.3:
-            return "Low"
-        elif prob < 0.6:
-            return "Medium"
-        else:
-            return "High"
-
-    X_test = X_test.copy()
-    X_test['breakdown_probability'] = y_prob
-    X_test['risk_category'] = X_test['breakdown_probability'].apply(classify_risk)
-
-    print("\n🚗 RISK DISTRIBUTION:")
-    print(X_test['risk_category'].value_counts())
-
-    X_test.to_csv("outputs/risk_predictions.csv", index=False)
-    return pipeline, X_test, y_test
+    return lr, rf, X_test, y_test
