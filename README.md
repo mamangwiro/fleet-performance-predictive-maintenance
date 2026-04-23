@@ -15,13 +15,14 @@ The findings support proactive maintenance strategies to reduce downtime and imp
 ## 📑 Table of Contents
 
 - [Business Problem](#business-problem)
-- [Tools & Technologies](#tools--technologies)
+- [Tools and Technologies](#tools-and-technologies)
 - [Dataset Overview](#dataset-overview)
 - [Data Preparation](#data-preparation)
-- [Exploratory Data Analysis](#explatory-data-analysis)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Model Development](#model-development)
 - [Model Comparison](#model-comparison)
 - [Business Impact](#business-impact)
+- [Full Analysis Notebook](#full-analysis-notebook)
 ---
 
 ## 1. Business Problem
@@ -32,7 +33,7 @@ Objective:
 To predict vehicle breakdown risk using operational and maintenance data, enabling proactive decision-making.
 
 ---
-## Tools and Technologies
+## 2. Tools and Technologies
 
 ### Data Processing & Modelling
 - **Python** (pandas, numpy)
@@ -44,7 +45,7 @@ To predict vehicle breakdown risk using operational and maintenance data, enabli
 
 ### Visualisation & Reporting
 - **Power BI**
-## 2. Dataset Overview
+## 3. Dataset Overview
 
 The dataset consists of simulated fleet operational data reflecting real-world logistics conditions.
 
@@ -69,7 +70,7 @@ The dataset consists of simulated fleet operational data reflecting real-world l
 
 ---
 
-## 3. Data Preparation
+## 4. Data Preparation
 
 - Verified data completeness and structure  
 - Removed non-predictive identifiers (`vehicle_id`, `driver_id`)  
@@ -78,7 +79,7 @@ The dataset consists of simulated fleet operational data reflecting real-world l
 
 ---
 
-## 4. Exploratory Data Analysis
+## 5. Exploratory Data Analysis
 
 Key insights:
 
@@ -89,7 +90,7 @@ Key insights:
 
 ---
 
-## 5. Model Development
+## 6. Model Development
 
 Two models were implemented:
 - Logistic Regression  
@@ -97,7 +98,7 @@ Two models were implemented:
 
 ---
 
-## 6. Model Comparison
+## 7. Model Comparison
 
 | Model | Insight |
 |------|--------|
@@ -109,7 +110,7 @@ Simpler models performed better, indicating linear relationships in the data.
 
 ---
 
-## 7. Business Impact
+## 8. Business Impact
 
 - Enables proactive maintenance planning  
 - Reduces downtime and repair costs  
@@ -120,6 +121,6 @@ Interpretability is critical in operations — Logistic Regression provides both
 
 ---
 
-## 📊 Full Analysis Notebook
+## 9. Full Analysis Notebook
 
 👉 [Open Notebook](notebooks/fleet_analysis.ipynb)
