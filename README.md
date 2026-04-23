@@ -14,14 +14,13 @@ The findings support proactive maintenance strategies to reduce downtime and imp
 
 ## 📑 Table of Contents
 
-- Business Problem  
-- Dataset Overview  
-- Data Preparation  
-- Exploratory Data Analysis  
-- Model Development  
-- Model Comparison  
-- Business Impact  
-
+- [Business Problem](#business-problem)
+- [Dataset Overview](#dataset-overview)
+- [Data Preparation](#data-preparation)
+- [Exploratory Data Analysis](#explatory-data-analysis)
+- [Model Development](#model-development)
+- [Model Comparison](#model-comparison)
+- [Business Impact](#business-impact)
 ---
 
 ## 1. Business Problem
