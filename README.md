@@ -15,6 +15,7 @@ The findings support proactive maintenance strategies to reduce downtime and imp
 ## 📑 Table of Contents
 
 - [Business Problem](#business-problem)
+- [Tools & Technologies](#tools--technologies)
 - [Dataset Overview](#dataset-overview)
 - [Data Preparation](#data-preparation)
 - [Exploratory Data Analysis](#explatory-data-analysis)
@@ -31,7 +32,18 @@ Objective:
 To predict vehicle breakdown risk using operational and maintenance data, enabling proactive decision-making.
 
 ---
+## Tools and Technologies
 
+### Data Processing & Modelling
+- **Python** (pandas, numpy)
+- **Machine Learning** (scikit-learn: Logistic Regression, Random Forest)
+- **Model Evaluation** (accuracy, precision, recall, confusion matrix)
+
+### Development Environment
+- **Jupyter Notebook**
+
+### Visualisation & Reporting
+- **Power BI**
 ## 2. Dataset Overview
 
 The dataset consists of simulated fleet operational data reflecting real-world logistics conditions.
