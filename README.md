@@ -21,6 +21,7 @@ The findings support proactive maintenance strategies to reduce downtime and imp
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Model Development](#model-development)
 - [Model Comparison](#model-comparison)
+- [Power BI Operationalisation](#Power BI Operationalisation)
 - [Business Impact](#business-impact)
 - [Full Analysis Notebook](#full-analysis-notebook)
 ---
@@ -109,8 +110,42 @@ Two models were implemented:
 Simpler models performed better, indicating linear relationships in the data.
 
 ---
+## 8. Power BI Operationalisation
+# 📊 Power BI Dashboard Suite
 
-## 8. Business Impact
+## . Executive Fleet Risk Command Centre
+
+![Executive Dashboard](dashboards/screenshots/01_executive_fleet_risk_command_centre.png)
+
+### Key Insights
+- Fleet risk exposure remains concentrated in low-to-medium risk vehicles
+- High-risk vehicles require immediate preventive maintenance intervention
+- Operational cost exposure is rising with delivery intensity
+
+---
+
+## . Maintenance Cost & Failure Analysis
+
+![Maintenance Dashboard](dashboards/screenshots/02_maintenance_cost_failure_analysis.png)
+
+### Key Insights
+- Urban routes demonstrate the highest breakdown frequency
+- Maintenance costs are disproportionately concentrated in certain assets
+- Service delays strongly correlate with breakdown probability
+
+---
+
+## . Predictive Risk Driver Explorer
+
+![Predictive Dashboard](dashboards/screenshots/03_predictive_risk_driver_explorer.png)
+
+### Key Insights
+- Maintenance cost is the strongest predictive risk driver
+- Logistic regression coefficients provide directional interpretability
+- Correlation analysis reveals operational stress relationships
+
+
+## 9. Business Impact
 
 - Enables proactive maintenance planning  
 - Reduces downtime and repair costs  
@@ -121,6 +156,6 @@ Interpretability is critical in operations — Logistic Regression provides both
 
 ---
 
-## 9. Full Analysis Notebook
+## 10. Full Analysis Notebook
 
 👉 [Open Notebook](notebooks/fleet_analysis.ipynb)
