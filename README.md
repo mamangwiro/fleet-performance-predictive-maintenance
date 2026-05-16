@@ -14,16 +14,16 @@ The findings support proactive maintenance strategies to reduce downtime and imp
 
 ## 📑 Table of Contents
 
-- [Business Problem](#business-problem)
-- [Tools and Technologies](#tools-and-technologies)
-- [Dataset Overview](#dataset-overview)
-- [Data Preparation](#data-preparation)
-- [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Model Development](#model-development)
-- [Model Comparison](#model-comparison)
-- [Power BI Operationalisation](#Power BI Operationalisation)
-- [Business Impact](#business-impact)
-- [Full Analysis Notebook](#full-analysis-notebook)
+- [Business Problem](#-business-problem)
+- [Tools and Technologies](#-tools-and-technologies)
+- [Dataset Overview](#-dataset-overview)
+- [Data Preparation](#-data-preparation)
+- [Exploratory Data Analysis](#-exploratory-data-analysis)
+- [Model Development](#-model-development)
+- [Model Comparison](#-model-comparison)
+- [Power BI Operationalisation](#-power-bi-operationalisation)
+- [Business Impact](#-business-impact)
+- [Full Analysis Notebook](#-full-analysis-notebook)
 ---
 
 ## 1. Business Problem
@@ -111,7 +111,6 @@ Simpler models performed better, indicating linear relationships in the data.
 
 ---
 ## 8. Power BI Operationalisation
-# 📊 Power BI Dashboard Suite
 
 ## . Executive Fleet Risk Command Centre
 
