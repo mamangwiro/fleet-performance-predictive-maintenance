@@ -158,3 +158,6 @@ Interpretability is critical in operations — Logistic Regression provides both
 ## 10. Full Analysis Notebook
 
 👉 [Open Notebook](notebooks/fleet_analysis.ipynb)
+
+
+Local environment tested succesfully!
