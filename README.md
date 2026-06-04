@@ -216,7 +216,7 @@ To support a more proactive maintenance strategy, this project applies predictiv
 
 The project simulates a real-world fleet environment by combining vehicle utilisation, maintenance history, driver behaviour and operational workload indicators to predict breakdown risk.
 
-## Project Objectives
+### Project Objectives
 
 The primary objectives were to:
 
@@ -226,7 +226,7 @@ The primary objectives were to:
 - Translate analytical outputs into actionable business insights
 - Develop interactive Power BI dashboards for decision support
 
-## Business Questions Addressed
+### Business Questions Addressed
 
 This project seeks to answer the following questions:
 
@@ -236,7 +236,7 @@ This project seeks to answer the following questions:
 4. What financial exposure is associated with high-risk vehicles?
 5. How can predictive analytics support fleet management decision-making?
 
-## Expected Business Value
+### Expected Business Value
 
 By implementing predictive maintenance strategies informed by this analysis, fleet operators can potentially achieve:
 
