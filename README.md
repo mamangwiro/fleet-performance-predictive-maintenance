@@ -62,6 +62,50 @@ The findings support proactive maintenance strategies to reduce downtime and imp
 
 ![Risk Driver Dashboard](images/03_Predictive%20Risk%20Driver%20Explorer.png)
 
+
+---
+
+## 🛠 Key Skills Demonstrated
+
+### Data Analytics
+
+- Data Cleaning
+- Data Transformation
+- Exploratory Data Analysis (EDA)
+- Statistical Analysis
+- Data Visualisation
+
+### Machine Learning
+
+- Logistic Regression
+- Random Forest Modelling
+- Feature Engineering
+- Model Evaluation
+- Predictive Risk Scoring
+
+### Power BI
+
+- Dashboard Development
+- KPI Design
+- DAX Measures
+- Interactive Reporting
+- Executive Decision Support
+
+### Business Analysis
+
+- Problem Definition
+- Root Cause Analysis
+- Business Impact Assessment
+- Requirements Interpretation
+- Decision Support Analytics
+
+### Fleet & Operations Analytics
+
+- Predictive Maintenance
+- Vehicle Breakdown Analysis
+- Maintenance Cost Analysis
+- Operational Performance Monitoring
+- Fleet Risk Assessment
 ---
 ## 📑 Table of Contents
 
