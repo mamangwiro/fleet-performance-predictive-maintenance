@@ -279,28 +279,54 @@ The objective was not to analyse 2,000 individual vehicles, but rather to use 2,
 
 ### Visualisation & Reporting
 - **Power BI**
+
+---
+
 ## 4. Dataset Overview
 
-The dataset consists of simulated fleet operational data reflecting real-world logistics conditions.
+### Project Scope
 
-### Key Variables:
+This project uses a synthetic fleet operations dataset designed to simulate a real-world predictive maintenance environment.
 
-**Operational Metrics**
-- distance_km  
-- total_stops  
-- delivery_time_hours  
-- fuel_used_l  
+The dataset contains:
 
-**Maintenance Indicators**
-- last_service_days  
-- maintenance_cost  
+- 2,000 operational records
+- 50 fleet vehicles
+- 80 drivers
+- 90-day operating period
 
-**Performance Metrics**
-- late_deliveries  
-- delivery_success_rate  
+Each record represents an operational event associated with a vehicle-driver combination rather than a unique vehicle.
 
-**Target Variable**
-- breakdown (1 = breakdown, 0 = no breakdown)
+### Dataset Structure
+
+The analysis dataset contains the following variables:
+
+| Category | Variables |
+|-----------|-----------|
+| Vehicle Identification | vehicle_id |
+| Driver Identification | driver_id |
+| Vehicle Utilisation | mileage_km, fuel_consumption_l, load_weight_kg |
+| Maintenance History | days_since_service, maintenance_cost |
+| Driver Behaviour | harsh_braking_events, speeding_events |
+| Operational Performance | delivery_delay_minutes, route_efficiency_score |
+| Target Variable | breakdown |
+
+### Analytical Scope
+
+The analysis combines:
+
+- Vehicle utilisation patterns
+- Maintenance history indicators
+- Driver behaviour metrics
+- Fleet operational performance measures
+- Historical breakdown events
+
+These variables were used to:
+
+- Identify operational drivers of breakdown risk
+- Quantify feature importance
+- Develop predictive maintenance models
+- Support proactive maintenance planning decisions
 
 ---
 
