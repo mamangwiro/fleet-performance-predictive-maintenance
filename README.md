@@ -282,7 +282,7 @@ The objective was not to analyse 2,000 individual vehicles, but rather to use 2,
 
 ---
 
-## 4. Dataset Overview
+## 3. Dataset Overview
 
 ### Project Scope
 
@@ -293,22 +293,22 @@ The dataset contains:
 - 2,000 operational records
 - 50 fleet vehicles
 - 80 drivers
-- 90-day operating period
+- 90-day operational period
 
-Each record represents an operational event associated with a vehicle-driver combination rather than a unique vehicle.
+Each record represents a vehicle operational event rather than a unique vehicle.
 
 ### Dataset Structure
 
-The analysis dataset contains the following variables:
+The dataset consists of 11 variables covering vehicle utilisation, maintenance history and operational performance.
 
 | Category | Variables |
 |-----------|-----------|
-| Vehicle Identification | vehicle_id |
+| Asset Identification | vehicle_id |
 | Driver Identification | driver_id |
-| Vehicle Utilisation | mileage_km, fuel_consumption_l, load_weight_kg |
-| Maintenance History | days_since_service, maintenance_cost |
-| Driver Behaviour | harsh_braking_events, speeding_events |
-| Operational Performance | delivery_delay_minutes, route_efficiency_score |
+| Operational Context | date, route_type |
+| Vehicle Utilisation | distance_km, total_stops, delivery_time_hours |
+| Fuel Consumption | fuel_used_l |
+| Maintenance Indicators | last_service_days, maintenance_cost |
 | Target Variable | breakdown |
 
 ### Analytical Scope
@@ -317,18 +317,25 @@ The analysis combines:
 
 - Vehicle utilisation patterns
 - Maintenance history indicators
-- Driver behaviour metrics
-- Fleet operational performance measures
+- Operational workload metrics
+- Fuel consumption behaviour
 - Historical breakdown events
 
 These variables were used to:
 
-- Identify operational drivers of breakdown risk
-- Quantify feature importance
-- Develop predictive maintenance models
+- Identify factors associated with vehicle breakdowns
+- Quantify predictive risk drivers
+- Develop machine learning models for breakdown prediction
 - Support proactive maintenance planning decisions
 
----
+### Target Variable
+
+The predictive models were trained to estimate:
+
+- **breakdown = 1** → Vehicle experienced a breakdown
+- **breakdown = 0** → Vehicle did not experience a breakdown
+
+This binary target variable forms the basis of the predictive maintenance modelling process.---
 
 ## 5. Data Preparation
 
