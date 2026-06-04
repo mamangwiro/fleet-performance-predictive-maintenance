@@ -107,6 +107,34 @@ The findings support proactive maintenance strategies to reduce downtime and imp
 - Operational Performance Monitoring
 - Fleet Risk Assessment
 ---
+
+---
+
+## 📈 Business Impact
+
+This project demonstrates how predictive analytics can support proactive fleet maintenance and operational decision-making.
+
+### Operational Benefits
+
+- Early identification of high-risk vehicles
+- Reduced unexpected breakdowns
+- Improved fleet reliability
+- Better maintenance scheduling
+- Improved operational visibility
+
+### Financial Benefits
+
+- Reduced maintenance expenditure
+- Lower downtime costs
+- Reduced service disruptions
+- Improved resource utilisation
+
+### Strategic Benefits
+
+- Data-driven maintenance planning
+- Improved risk management
+- Enhanced decision-making capability
+- Improved operational resilience
 ## 📑 Table of Contents
 
 - [Business Problem](#-business-problem)
