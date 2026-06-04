@@ -1,5 +1,41 @@
 # 🚛 Fleet Performance & Predictive Maintenance Analysis
 
+## 🎯 Recruiter Quick View
+
+### Business Problem
+
+Fleet operators face unexpected vehicle breakdowns that increase maintenance costs, create operational disruptions, and reduce service reliability.
+
+### Solution
+
+Developed an end-to-end predictive maintenance analytics solution using Python, Machine Learning and Power BI to identify high-risk vehicles before breakdowns occur.
+
+### Key Results
+
+- Identified the main operational drivers of vehicle breakdowns
+- Developed predictive models using Logistic Regression and Random Forest
+- Built executive Power BI dashboards for decision support
+- Created vehicle risk scoring methodology
+- Demonstrated proactive maintenance planning capability
+
+### Skills Demonstrated
+
+- Data Analytics
+- Machine Learning
+- Feature Engineering
+- Power BI Dashboard Development
+- Business Analysis
+- Fleet Operations Analytics
+
+### Relevant Roles
+
+- Data Analyst
+- Business Analyst
+- Supply Chain Analyst
+- Fleet Performance Analyst
+- Operations Analyst
+- Transport Manager
+
 ## 📌 Executive Summary
 
 This project analyzes fleet operational data to identify key drivers of vehicle breakdowns and evaluate predictive models for maintenance planning.
@@ -26,9 +62,132 @@ The findings support proactive maintenance strategies to reduce downtime and imp
 
 ![Risk Driver Dashboard](images/03_Predictive%20Risk%20Driver%20Explorer.png)
 
----
-## 📑 Table of Contents
 
+---
+
+## 🛠 Key Skills Demonstrated
+
+### Data Analytics
+
+- Data Cleaning
+- Data Transformation
+- Exploratory Data Analysis (EDA)
+- Statistical Analysis
+- Data Visualisation
+
+### Machine Learning
+
+- Logistic Regression
+- Random Forest Modelling
+- Feature Engineering
+- Model Evaluation
+- Predictive Risk Scoring
+
+### Power BI
+
+- Dashboard Development
+- KPI Design
+- DAX Measures
+- Interactive Reporting
+- Executive Decision Support
+
+### Business Analysis
+
+- Problem Definition
+- Root Cause Analysis
+- Business Impact Assessment
+- Requirements Interpretation
+- Decision Support Analytics
+
+### Fleet & Operations Analytics
+
+- Predictive Maintenance
+- Vehicle Breakdown Analysis
+- Maintenance Cost Analysis
+- Operational Performance Monitoring
+- Fleet Risk Assessment
+
+---
+## Business Impact
+
+This project demonstrates how predictive analytics can support proactive fleet maintenance and operational decision-making.
+
+### Operational Benefits
+
+- Early identification of high-risk vehicles
+- Reduced unexpected breakdowns
+- Improved fleet reliability
+- Better maintenance scheduling
+- Improved operational visibility
+
+### Financial Benefits
+
+- Reduced maintenance expenditure
+- Lower downtime costs
+- Reduced service disruptions
+- Improved resource utilisation
+
+### Strategic Benefits
+
+- Data-driven maintenance planning
+- Improved risk management
+- Enhanced decision-making capability
+- Improved operational resilience
+
+---
+
+## 📊 Project Outcomes
+
+The analysis identified several operational factors that significantly influence vehicle breakdown risk.
+
+### Key Predictive Drivers
+
+- Vehicle mileage accumulation
+- Maintenance delays
+- Delivery workload
+- Operational stress factors
+- Vehicle utilisation patterns
+
+### Model Findings
+
+- Logistic Regression achieved the strongest overall performance
+- Operational variables demonstrated measurable influence on breakdown probability
+- Breakdown risk can be estimated before failure events occur
+
+### Management Actions Supported
+
+- Prioritised preventative maintenance
+- Fleet risk monitoring
+- Resource allocation decisions
+- Maintenance budget planning
+
+---
+
+## 🏗️ Solution Architecture
+
+```text
+Raw Fleet Data
+      │
+      ▼
+Feature Engineering
+      │
+      ▼
+Machine Learning Models
+(Logistic Regression & Random Forest)
+      │
+      ▼
+Vehicle Risk Scoring
+      │
+      ▼
+Power BI Dashboards
+      │
+      ▼
+Management Decision Support
+```
+
+---
+
+## 📑 Table of Contents
 - [Business Problem](#-business-problem)
 - [Tools and Technologies](#-tools-and-technologies)
 - [Dataset Overview](#-dataset-overview)
