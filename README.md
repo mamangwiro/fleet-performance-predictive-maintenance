@@ -109,8 +109,7 @@ The findings support proactive maintenance strategies to reduce downtime and imp
 ---
 
 ---
-
-## 📈 Business Impact
+## Business Impact
 
 This project demonstrates how predictive analytics can support proactive fleet maintenance and operational decision-making.
 
@@ -135,6 +134,35 @@ This project demonstrates how predictive analytics can support proactive fleet m
 - Improved risk management
 - Enhanced decision-making capability
 - Improved operational resilience
+
+---
+
+## 📊 Project Outcomes
+
+The analysis identified several operational factors that significantly influence vehicle breakdown risk.
+
+### Key Predictive Drivers
+
+- Vehicle mileage accumulation
+- Maintenance delays
+- Delivery workload
+- Operational stress factors
+- Vehicle utilisation patterns
+
+### Model Findings
+
+- Logistic Regression achieved the strongest overall performance
+- Operational variables demonstrated measurable influence on breakdown probability
+- Breakdown risk can be estimated before failure events occur
+
+### Management Actions Supported
+
+- Prioritised preventative maintenance
+- Fleet risk monitoring
+- Resource allocation decisions
+- Maintenance budget planning
+
+---
 ## 📑 Table of Contents
 
 - [Business Problem](#-business-problem)
