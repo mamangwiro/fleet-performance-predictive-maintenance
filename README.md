@@ -216,7 +216,7 @@ To support a more proactive maintenance strategy, this project applies predictiv
 
 The project simulates a real-world fleet environment by combining vehicle utilisation, maintenance history, driver behaviour and operational workload indicators to predict breakdown risk.
 
-## Project Objectives
+### Project Objectives
 
 The primary objectives were to:
 
@@ -226,7 +226,7 @@ The primary objectives were to:
 - Translate analytical outputs into actionable business insights
 - Develop interactive Power BI dashboards for decision support
 
-## Business Questions Addressed
+### Business Questions Addressed
 
 This project seeks to answer the following questions:
 
@@ -236,7 +236,7 @@ This project seeks to answer the following questions:
 4. What financial exposure is associated with high-risk vehicles?
 5. How can predictive analytics support fleet management decision-making?
 
-## Expected Business Value
+### Expected Business Value
 
 By implementing predictive maintenance strategies informed by this analysis, fleet operators can potentially achieve:
 
@@ -248,7 +248,26 @@ By implementing predictive maintenance strategies informed by this analysis, fle
 - More informed management decisions
 
 ---
-## 2. Tools and Technologies
+
+## 2. Project Scope
+
+| Metric | Value |
+|----------|----------|
+| Operational & Maintenance Records | 2,000 |
+| Fleet Vehicles Modelled | 50 |
+| Drivers Analysed | 80 |
+| Time Period | 90 Days (Simulated) |
+| Machine Learning Models | 2 |
+| Power BI Dashboards | 3 |
+
+### Scope Clarification
+
+This project analysed 2,000 operational and maintenance transaction records generated across a fleet of 50 vehicles and 80 drivers.
+
+The dataset contains multiple records for the same vehicle and driver over time, representing maintenance events, operational performance, service intervals and breakdown outcomes.
+
+The objective was not to analyse 2,000 individual vehicles, but rather to use 2,000 historical observations to identify patterns associated with vehicle breakdown risk.
+## 3. Tools and Technologies
 
 ### Data Processing & Modelling
 - **Python** (pandas, numpy)
@@ -260,7 +279,7 @@ By implementing predictive maintenance strategies informed by this analysis, fle
 
 ### Visualisation & Reporting
 - **Power BI**
-## 3. Dataset Overview
+## 4. Dataset Overview
 
 The dataset consists of simulated fleet operational data reflecting real-world logistics conditions.
 
@@ -285,7 +304,7 @@ The dataset consists of simulated fleet operational data reflecting real-world l
 
 ---
 
-## 4. Data Preparation
+## 5. Data Preparation
 
 - Verified data completeness and structure  
 - Removed non-predictive identifiers (`vehicle_id`, `driver_id`)  
@@ -294,7 +313,7 @@ The dataset consists of simulated fleet operational data reflecting real-world l
 
 ---
 
-## 5. Exploratory Data Analysis
+## 6. Exploratory Data Analysis
 
 Key insights:
 
@@ -305,7 +324,7 @@ Key insights:
 
 ---
 
-## 6. Model Development
+## 7. Model Development
 
 Two models were implemented:
 - Logistic Regression  
@@ -313,7 +332,7 @@ Two models were implemented:
 
 ---
 
-## 7. Model Comparison
+## 8. Model Comparison
 
 | Model | Insight |
 |------|--------|
@@ -324,7 +343,7 @@ Two models were implemented:
 Simpler models performed better, indicating linear relationships in the data.
 
 ---
-## 8. Power BI Operationalisation
+## 9. Power BI Operationalisation
 
 ## . Executive Fleet Risk Command Centre
 
@@ -358,7 +377,7 @@ Simpler models performed better, indicating linear relationships in the data.
 - Correlation analysis reveals operational stress relationships
 
 
-## 9. Business Impact
+## 10. Business Impact
 
 - Enables proactive maintenance planning  
 - Reduces downtime and repair costs  
@@ -369,7 +388,7 @@ Interpretability is critical in operations — Logistic Regression provides both
 
 ---
 
-## 10. Full Analysis Notebook
+## 11. Full Analysis Notebook
 
 👉 [Open Notebook](notebooks/fleet_analysis.ipynb)
 
