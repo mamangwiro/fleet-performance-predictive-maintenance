@@ -12,6 +12,21 @@ The findings support proactive maintenance strategies to reduce downtime and imp
 
 ---
 
+## 📊 Dashboard Preview
+
+### Executive Fleet Risk Command Centre
+
+![Executive Dashboard](images/01_Executive%20Dashboard%20Preview.png)
+
+### Maintenance Cost Analysis
+
+![Maintenance Dashboard](images/02_Maintenance%20and%20Cost%20Analysis%20Report.png)
+
+### Predictive Risk Driver Explorer
+
+![Risk Driver Dashboard](images/03_Predictive%20Risk%20Driver%20Explorer.png)
+
+---
 ## 📑 Table of Contents
 
 - [Business Problem](#-business-problem)
