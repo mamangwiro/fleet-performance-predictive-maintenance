@@ -200,12 +200,52 @@ Management Decision Support
 - [Full Analysis Notebook](#-full-analysis-notebook)
 ---
 
-## 1. Business Problem
+## 1. Business Context
 
-Fleet breakdowns disrupt operations, increase costs, and reduce service reliability.
+Fleet operators depend on reliable vehicle availability to maintain service levels, control operating costs, and meet customer commitments. Unexpected vehicle breakdowns can result in:
 
-Objective:
-To predict vehicle breakdown risk using operational and maintenance data, enabling proactive decision-making.
+- Increased maintenance and repair expenditure
+- Missed deliveries and service disruptions
+- Reduced fleet utilisation
+- Higher operational risk
+- Negative customer experience
+
+Traditional maintenance approaches are often reactive, addressing issues only after failures occur. This can lead to avoidable downtime and unnecessary costs.
+
+To support a more proactive maintenance strategy, this project applies predictive analytics and machine learning techniques to operational fleet data. By identifying the factors most strongly associated with breakdown events, fleet managers can prioritise maintenance activities before failures occur.
+
+The project simulates a real-world fleet environment by combining vehicle utilisation, maintenance history, driver behaviour and operational workload indicators to predict breakdown risk.
+
+## Project Objectives
+
+The primary objectives were to:
+
+- Predict the likelihood of vehicle breakdowns
+- Identify key operational and maintenance risk drivers
+- Compare machine learning approaches for predictive performance
+- Translate analytical outputs into actionable business insights
+- Develop interactive Power BI dashboards for decision support
+
+## Business Questions Addressed
+
+This project seeks to answer the following questions:
+
+1. Which vehicles are most likely to experience breakdowns?
+2. Which operational factors contribute most to failure risk?
+3. How can maintenance resources be prioritised effectively?
+4. What financial exposure is associated with high-risk vehicles?
+5. How can predictive analytics support fleet management decision-making?
+
+## Expected Business Value
+
+By implementing predictive maintenance strategies informed by this analysis, fleet operators can potentially achieve:
+
+- Reduced vehicle downtime
+- Improved fleet reliability
+- Better maintenance planning
+- Lower repair costs
+- Enhanced operational visibility
+- More informed management decisions
 
 ---
 ## 2. Tools and Technologies
