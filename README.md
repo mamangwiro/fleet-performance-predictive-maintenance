@@ -1,5 +1,41 @@
 # 🚛 Fleet Performance & Predictive Maintenance Analysis
 
+## 🎯 Recruiter Quick View
+
+### Business Problem
+
+Fleet operators face unexpected vehicle breakdowns that increase maintenance costs, create operational disruptions, and reduce service reliability.
+
+### Solution
+
+Developed an end-to-end predictive maintenance analytics solution using Python, Machine Learning and Power BI to identify high-risk vehicles before breakdowns occur.
+
+### Key Results
+
+- Identified the main operational drivers of vehicle breakdowns
+- Developed predictive models using Logistic Regression and Random Forest
+- Built executive Power BI dashboards for decision support
+- Created vehicle risk scoring methodology
+- Demonstrated proactive maintenance planning capability
+
+### Skills Demonstrated
+
+- Data Analytics
+- Machine Learning
+- Feature Engineering
+- Power BI Dashboard Development
+- Business Analysis
+- Fleet Operations Analytics
+
+### Relevant Roles
+
+- Data Analyst
+- Business Analyst
+- Supply Chain Analyst
+- Fleet Performance Analyst
+- Operations Analyst
+- Transport Manager
+
 ## 📌 Executive Summary
 
 This project analyzes fleet operational data to identify key drivers of vehicle breakdowns and evaluate predictive models for maintenance planning.
