@@ -1,6 +1,6 @@
 # 🚛 Fleet Performance & Predictive Maintenance Analysis
 
-## 🎯 Recruiter Quick View
+## 🎯 Quick View
 
 ### Business Problem
 
