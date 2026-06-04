@@ -162,8 +162,32 @@ The analysis identified several operational factors that significantly influence
 - Maintenance budget planning
 
 ---
-## 📑 Table of Contents
 
+## 🏗️ Solution Architecture
+
+```text
+Raw Fleet Data
+      │
+      ▼
+Feature Engineering
+      │
+      ▼
+Machine Learning Models
+(Logistic Regression & Random Forest)
+      │
+      ▼
+Vehicle Risk Scoring
+      │
+      ▼
+Power BI Dashboards
+      │
+      ▼
+Management Decision Support
+```
+
+---
+
+## 📑 Table of Contents
 - [Business Problem](#-business-problem)
 - [Tools and Technologies](#-tools-and-technologies)
 - [Dataset Overview](#-dataset-overview)
