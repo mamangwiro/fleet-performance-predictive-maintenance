@@ -150,9 +150,10 @@ The analysis identified several operational factors that significantly influence
 
 ### Model Findings
 
-- Logistic Regression achieved the strongest overall performance
-- Operational variables demonstrated measurable influence on breakdown probability
-- Breakdown risk can be estimated before failure events occur
+- Random Forest achieved marginally higher predictive performance across Accuracy, Precision, Recall and F1 Score.
+- Logistic Regression remained highly competitive while offering superior interpretability.
+- Operational and maintenance variables demonstrated measurable influence on vehicle breakdown probability.
+- Breakdown risk can be estimated before failure events occur.
 
 ### Management Actions Supported
 
