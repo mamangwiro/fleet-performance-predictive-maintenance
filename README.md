@@ -365,20 +365,34 @@ Two models were implemented:
 
 ---
 
-## 8. Model Comparison
+## 8. Model Performance Summary
 
-| Model | Accuracy | F1 Score | Key Observation |
-|---------|---------|---------|---------|
-| Logistic Regression | 0.77 | 0.80 | Highly interpretable and competitive performance |
-| Random Forest | 0.78 | 0.81 | Marginally higher predictive performance |
+| Metric    | Logistic Regression | Random Forest |
+| --------- | ------------------- | ------------- |
+| Accuracy  | 0.77                | 0.78          |
+| Precision | 0.81                | 0.82          |
+| Recall    | 0.78                | 0.79          |
+| F1 Score  | 0.80                | 0.81          |
 
-### Conclusion
-
-Both models performed well on the synthetic fleet dataset.
-
-Random Forest achieved slightly better predictive performance, while Logistic Regression remained valuable due to its transparency and ease of interpretation.
 ---
-## 9. Power BI Operationalisation
+
+## 9. Model Comparison & Interpretation
+
+Both models delivered strong predictive performance on the synthetic fleet dataset.
+
+Random Forest achieved marginally higher Accuracy, Precision, Recall and F1 Score, indicating a slightly stronger ability to identify vehicle breakdown risk.
+
+Logistic Regression remained highly competitive while offering superior interpretability through model coefficients, making it easier to explain the influence of operational and maintenance variables.
+
+### Key Takeaway
+
+For maximum predictive performance, Random Forest would be selected.
+
+For situations where model explainability and transparency are priorities, Logistic Regression remains a valuable alternative.
+
+---
+
+## 10. Power BI Operationalisation
 
 ## . Executive Fleet Risk Command Centre
 
@@ -412,7 +426,7 @@ Random Forest achieved slightly better predictive performance, while Logistic Re
 - Correlation analysis reveals operational stress relationships
 
 
-## 10. Business Impact
+## 11. Business Impact
 
 - Enables proactive maintenance planning  
 - Reduces downtime and repair costs  
@@ -423,7 +437,7 @@ Interpretability is critical in operations — Logistic Regression provides both
 
 ---
 
-## 11. Full Analysis Notebook
+## 12. Full Analysis Notebook
 
 👉 [Open Notebook](notebooks/fleet_analysis.ipynb)
 
