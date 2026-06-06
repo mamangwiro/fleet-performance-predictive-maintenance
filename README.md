@@ -397,8 +397,7 @@ For situations where model explainability and transparency are priorities, Logis
 
 ## . Executive Fleet Risk Command Centre
 
-![Executive Dashboard](dashboards/screenshots/01_executive_fleet_risk_command_centre.png)
-
+[Executive Dashboard](images/01_Executive%20Dashboard%20Preview.png)
 ### Key Insights
 - Fleet risk exposure remains concentrated in low-to-medium risk vehicles
 - High-risk vehicles require immediate preventive maintenance intervention
