@@ -40,11 +40,11 @@ Developed an end-to-end predictive maintenance analytics solution using Python, 
 
 This project analyzes fleet operational data to identify key drivers of vehicle breakdowns and evaluate predictive models for maintenance planning.
 
-The analysis reveals that operational stress (distance, delivery load), maintenance delays, and performance inefficiencies significantly influence breakdown risk.
+The analysis reveals that vehicle utilisation (distance travelled, delivery workload and fuel consumption) together with maintenance indicators (service intervals and maintenance expenditure) are strongly associated with vehicle breakdown risk.
 
-Two models were tested — Logistic Regression and Random Forest — with Logistic Regression outperforming due to the relatively linear relationships in the data.
+Two machine learning models were evaluated: Logistic Regression and Random Forest.
 
-The findings support proactive maintenance strategies to reduce downtime and improve fleet reliability.
+Both models achieved comparable predictive performance, indicating that the operational and maintenance variables contain strong predictive signals. Random Forest achieved marginally higher accuracy and F1-score, while Logistic Regression provided a more interpretable view of the factors influencing breakdown risk.
 
 ---
 
@@ -367,14 +367,16 @@ Two models were implemented:
 
 ## 8. Model Comparison
 
-| Model | Insight |
-|------|--------|
-| Logistic Regression | Better breakdown detection |
-| Random Forest | No significant improvement |
+| Model | Accuracy | F1 Score | Key Observation |
+|---------|---------|---------|---------|
+| Logistic Regression | 0.77 | 0.80 | Highly interpretable and competitive performance |
+| Random Forest | 0.78 | 0.81 | Marginally higher predictive performance |
 
-### Key Finding:
-Simpler models performed better, indicating linear relationships in the data.
+### Conclusion
 
+Both models performed well on the synthetic fleet dataset.
+
+Random Forest achieved slightly better predictive performance, while Logistic Regression remained valuable due to its transparency and ease of interpretation.
 ---
 ## 9. Power BI Operationalisation
 
