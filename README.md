@@ -52,17 +52,15 @@ Both models achieved comparable predictive performance, indicating that the oper
 
 ### Executive Fleet Risk Command Centre
 
-![Executive Dashboard](images/01_Executive%20Dashboard%20Preview.png)
+![Executive Fleet Risk Command Centre](images/01_Executive%20Dashboard%20Preview.png)
 
 ### Maintenance Cost Analysis
 
-![Maintenance Dashboard](images/02_Maintenance%20and%20Cost%20Analysis%20Report.png)
+![Maintenance Cost & Failure Analysis](images/02_Maintenance%20and%20Cost%20Analysis%20Report.png)
 
 ### Predictive Risk Driver Explorer
 
-![Risk Driver Dashboard](images/03_Predictive%20Risk%20Driver%20Explorer.png)
-
-
+![Predictive Risk Driver Explorer](images/03_Predictive%20Risk%20Driver%20Explorer.png)
 ---
 
 ## 🛠 Key Skills Demonstrated
