@@ -48,19 +48,132 @@ The findings support proactive maintenance strategies to reduce downtime and imp
 
 ---
 
+## Portfolio Highlights
+
+This project demonstrates the end-to-end delivery of a predictive maintenance analytics solution, from data preparation and feature engineering through machine learning model development and business intelligence reporting.
+
+The project showcases practical skills relevant to Data Analyst, Business Analyst, Fleet Analyst and Supply Chain Analytics roles, including:
+
+- Data Cleaning and Transformation
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Predictive Modelling
+- Model Evaluation
+- Power BI Dashboard Development
+- Business Insight Generation
+- Git Version Control
+
+---
+
 ## 📊 Dashboard Preview
 
 ### Executive Fleet Risk Command Centre
 
-![Executive Dashboard](images/01_Executive%20Dashboard%20Preview.png)
+**Business Problem**
 
-### Maintenance Cost Analysis
+Fleet managers often react to vehicle breakdowns after they occur, resulting in unplanned downtime, service disruptions and increased maintenance costs.
 
-![Maintenance Dashboard](images/02_Maintenance%20and%20Cost%20Analysis%20Report.png)
+**Objective**
+
+Provide a single executive dashboard that identifies high-risk vehicles, estimates operational exposure and supports preventative maintenance planning.
+
+**Key Features**
+
+- Fleet-wide breakdown risk visibility
+- Risk distribution by vehicle category
+- Breakdown trend monitoring
+- Operational cost exposure analysis
+- High-risk vehicle prioritisation
+
+**Tools & Techniques Used**
+
+- Python
+- Pandas
+- Logistic Regression
+- Random Forest
+- Power BI
+- DAX Measures
+
+**Business Value Delivered**
+
+- Supports proactive maintenance scheduling
+- Reduces unexpected breakdowns
+- Improves fleet availability
+- Enables data-driven maintenance decisions
+
+![Executive Fleet Risk Command Centre](images/01_Executive%20Dashboard%20Preview.png)
+
+
+### Maintenance Cost & Failure Analysis
+
+**Business Problem**
+
+Maintenance expenditure is often reviewed retrospectively, making it difficult to identify cost drivers and prioritise interventions.
+
+**Objective**
+
+Analyse maintenance costs alongside predicted breakdown events to identify areas of financial exposure and maintenance inefficiencies.
+
+**Key Features**
+
+- Breakdown cost estimation
+- Failure trend analysis
+- Cost concentration monitoring
+- Vehicle-level maintenance exposure
+- Preventative maintenance opportunity identification
+
+**Tools & Techniques Used**
+
+- Python
+- Feature Engineering
+- Predictive Analytics
+- Power BI
+- DAX Measures
+
+**Business Value Delivered**
+
+- Improves maintenance budget planning
+- Identifies cost reduction opportunities
+- Supports preventative maintenance strategies
+- Improves asset lifecycle management
+
+![Maintenance Cost & Failure Analysis](images/02_Maintenance%20and%20Cost%20Analysis%20Report.png)
+
 
 ### Predictive Risk Driver Explorer
 
-![Risk Driver Dashboard](images/03_Predictive%20Risk%20Driver%20Explorer.png)
+**Business Problem**
+
+Knowing which vehicles are likely to fail is useful, but understanding *why* they are likely to fail enables more effective intervention planning.
+
+**Objective**
+
+Identify and visualise the operational and maintenance factors that most strongly influence vehicle breakdown risk.
+
+**Key Features**
+
+- Feature importance analysis
+- Risk driver visualisation
+- Breakdown probability exploration
+- Vehicle utilisation impact assessment
+- Maintenance behaviour analysis
+
+**Tools & Techniques Used**
+
+- Logistic Regression Coefficients
+- Random Forest Feature Importance
+- Feature Engineering
+- Correlation Analysis
+- Power BI
+
+**Business Value Delivered**
+
+- Improves maintenance prioritisation
+- Identifies root causes of breakdown risk
+- Supports targeted intervention strategies
+- Enhances decision-making transparency
+
+![Predictive Risk Driver Explorer](images/03_Predictive%20Risk%20Driver%20Explorer.png)
 
 
 ---
