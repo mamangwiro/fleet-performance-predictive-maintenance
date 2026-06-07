@@ -531,21 +531,22 @@ For situations where model explainability and transparency are priorities, Logis
 ![Predictive Dashboard](dashboards/screenshots/03_predictive_risk_driver_explorer.png)
 
 ### Key Insights
-- Maintenance cost is the strongest predictive risk driver
-- Logistic regression coefficients provide directional interpretability
-- Correlation analysis reveals operational stress relationships
+- Maintenance expenditure, service delays and route characteristics were identified as significant contributors to breakdown risk.
+- Logistic Regression coefficients provided interpretable directional insight into the operational factors influencing vehicle failures.
+- Random Forest feature importance highlighted non-linear relationships between maintenance history and breakdown probability.
+- Correlation analysis revealed measurable relationships between operational stress indicators and vehicle reliability outcomes.
 
+### Business Impact
 
-## 11. Business Impact
-
-- Enables proactive maintenance planning  
-- Reduces downtime and repair costs  
-- Improves fleet availability and efficiency  
-
-### Strategic Insight:
-Interpretability is critical in operations — Logistic Regression provides both performance and transparency.
+- Supports proactive maintenance scheduling using predicted breakdown risk.
+- Helps prioritise limited maintenance resources towards high-risk assets.
+- Reduces operational downtime and unplanned repair expenditure.
+- Improves fleet availability, service reliability and customer satisfaction.
 
 ---
+
+### Strategic Insight:
+While Random Forest delivered the highest predictive performance, Logistic Regression offered greater interpretability, enabling fleet managers to understand not only which vehicles were at risk, but also why they were at risk.
 
 ## 12. Full Analysis Notebook
 
