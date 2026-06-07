@@ -553,6 +553,3 @@ While Random Forest delivered the highest predictive performance, Logistic Regre
 👉 [Open Notebook](notebooks/fleet_analysis.ipynb)
 
 
-Local environment tested succesfully!
-
-This is a test update made on the Feature-update-readme branch.
