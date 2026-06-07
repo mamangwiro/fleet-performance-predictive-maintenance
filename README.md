@@ -40,11 +40,11 @@ Developed an end-to-end predictive maintenance analytics solution using Python, 
 
 This project analyzes fleet operational data to identify key drivers of vehicle breakdowns and evaluate predictive models for maintenance planning.
 
-The analysis reveals that operational stress (distance, delivery load), maintenance delays, and performance inefficiencies significantly influence breakdown risk.
+The analysis reveals that vehicle utilisation (distance travelled, delivery workload and fuel consumption) together with maintenance indicators (service intervals and maintenance expenditure) are strongly associated with vehicle breakdown risk.
 
-Two models were tested — Logistic Regression and Random Forest — with Logistic Regression outperforming due to the relatively linear relationships in the data.
+Two machine learning models were evaluated: Logistic Regression and Random Forest.
 
-The findings support proactive maintenance strategies to reduce downtime and improve fleet reliability.
+Both models achieved comparable predictive performance, indicating that the operational and maintenance variables contain strong predictive signals. Random Forest achieved marginally higher accuracy and F1-score, while Logistic Regression provided a more interpretable view of the factors influencing breakdown risk.
 
 ---
 
@@ -70,6 +70,7 @@ The project showcases practical skills relevant to Data Analyst, Business Analys
 ### Executive Fleet Risk Command Centre
 
 **Business Problem**
+![Executive Fleet Risk Command Centre](images/01_Executive%20Dashboard%20Preview.png)
 
 Fleet managers often react to vehicle breakdowns after they occur, resulting in unplanned downtime, service disruptions and increased maintenance costs.
 
@@ -139,6 +140,7 @@ Analyse maintenance costs alongside predicted breakdown events to identify areas
 
 ![Maintenance Cost & Failure Analysis](images/02_Maintenance%20and%20Cost%20Analysis%20Report.png)
 
+<<<<<<< HEAD
 
 ### Predictive Risk Driver Explorer
 
@@ -176,6 +178,13 @@ Identify and visualise the operational and maintenance factors that most strongl
 ![Predictive Risk Driver Explorer](images/03_Predictive%20Risk%20Driver%20Explorer.png)
 
 
+=======
+![Maintenance Cost & Failure Analysis](images/02_Maintenance%20and%20Cost%20Analysis%20Report.png)
+
+### Predictive Risk Driver Explorer
+
+![Predictive Risk Driver Explorer](images/03_Predictive%20Risk%20Driver%20Explorer.png)
+>>>>>>> main
 ---
 
 ## 🛠 Key Skills Demonstrated
@@ -263,9 +272,10 @@ The analysis identified several operational factors that significantly influence
 
 ### Model Findings
 
-- Logistic Regression achieved the strongest overall performance
-- Operational variables demonstrated measurable influence on breakdown probability
-- Breakdown risk can be estimated before failure events occur
+- Random Forest achieved marginally higher predictive performance across Accuracy, Precision, Recall and F1 Score.
+- Logistic Regression remained highly competitive while offering superior interpretability.
+- Operational and maintenance variables demonstrated measurable influence on vehicle breakdown probability.
+- Breakdown risk can be estimated before failure events occur.
 
 ### Management Actions Supported
 
@@ -313,15 +323,74 @@ Management Decision Support
 - [Full Analysis Notebook](#-full-analysis-notebook)
 ---
 
-## 1. Business Problem
+## 1. Business Context
 
-Fleet breakdowns disrupt operations, increase costs, and reduce service reliability.
+Fleet operators depend on reliable vehicle availability to maintain service levels, control operating costs, and meet customer commitments. Unexpected vehicle breakdowns can result in:
 
-Objective:
-To predict vehicle breakdown risk using operational and maintenance data, enabling proactive decision-making.
+- Increased maintenance and repair expenditure
+- Missed deliveries and service disruptions
+- Reduced fleet utilisation
+- Higher operational risk
+- Negative customer experience
+
+Traditional maintenance approaches are often reactive, addressing issues only after failures occur. This can lead to avoidable downtime and unnecessary costs.
+
+To support a more proactive maintenance strategy, this project applies predictive analytics and machine learning techniques to operational fleet data. By identifying the factors most strongly associated with breakdown events, fleet managers can prioritise maintenance activities before failures occur.
+
+The project simulates a real-world fleet environment by combining vehicle utilisation, maintenance history, driver behaviour and operational workload indicators to predict breakdown risk.
+
+### Project Objectives
+
+The primary objectives were to:
+
+- Predict the likelihood of vehicle breakdowns
+- Identify key operational and maintenance risk drivers
+- Compare machine learning approaches for predictive performance
+- Translate analytical outputs into actionable business insights
+- Develop interactive Power BI dashboards for decision support
+
+### Business Questions Addressed
+
+This project seeks to answer the following questions:
+
+1. Which vehicles are most likely to experience breakdowns?
+2. Which operational factors contribute most to failure risk?
+3. How can maintenance resources be prioritised effectively?
+4. What financial exposure is associated with high-risk vehicles?
+5. How can predictive analytics support fleet management decision-making?
+
+### Expected Business Value
+
+By implementing predictive maintenance strategies informed by this analysis, fleet operators can potentially achieve:
+
+- Reduced vehicle downtime
+- Improved fleet reliability
+- Better maintenance planning
+- Lower repair costs
+- Enhanced operational visibility
+- More informed management decisions
 
 ---
-## 2. Tools and Technologies
+
+## 2. Project Scope
+
+| Metric | Value |
+|----------|----------|
+| Operational & Maintenance Records | 2,000 |
+| Fleet Vehicles Modelled | 50 |
+| Drivers Analysed | 80 |
+| Time Period | 90 Days (Simulated) |
+| Machine Learning Models | 2 |
+| Power BI Dashboards | 3 |
+
+### Scope Clarification
+
+This project analysed 2,000 operational and maintenance transaction records generated across a fleet of 50 vehicles and 80 drivers.
+
+The dataset contains multiple records for the same vehicle and driver over time, representing maintenance events, operational performance, service intervals and breakdown outcomes.
+
+The objective was not to analyse 2,000 individual vehicles, but rather to use 2,000 historical observations to identify patterns associated with vehicle breakdown risk.
+## 3. Tools and Technologies
 
 ### Data Processing & Modelling
 - **Python** (pandas, numpy)
@@ -333,32 +402,65 @@ To predict vehicle breakdown risk using operational and maintenance data, enabli
 
 ### Visualisation & Reporting
 - **Power BI**
-## 3. Dataset Overview
-
-The dataset consists of simulated fleet operational data reflecting real-world logistics conditions.
-
-### Key Variables:
-
-**Operational Metrics**
-- distance_km  
-- total_stops  
-- delivery_time_hours  
-- fuel_used_l  
-
-**Maintenance Indicators**
-- last_service_days  
-- maintenance_cost  
-
-**Performance Metrics**
-- late_deliveries  
-- delivery_success_rate  
-
-**Target Variable**
-- breakdown (1 = breakdown, 0 = no breakdown)
 
 ---
 
-## 4. Data Preparation
+## 3. Dataset Overview
+
+### Project Scope
+
+This project uses a synthetic fleet operations dataset designed to simulate a real-world predictive maintenance environment.
+
+The dataset contains:
+
+- 2,000 operational records
+- 50 fleet vehicles
+- 80 drivers
+- 90-day operational period
+
+Each record represents a vehicle operational event rather than a unique vehicle.
+
+### Dataset Structure
+
+The dataset consists of 11 variables covering vehicle utilisation, maintenance history and operational performance.
+
+| Category | Variables |
+|-----------|-----------|
+| Asset Identification | vehicle_id |
+| Driver Identification | driver_id |
+| Operational Context | date, route_type |
+| Vehicle Utilisation | distance_km, total_stops, delivery_time_hours |
+| Fuel Consumption | fuel_used_l |
+| Maintenance Indicators | last_service_days, maintenance_cost |
+| Target Variable | breakdown |
+
+### Analytical Scope
+
+The analysis combines:
+
+- Vehicle utilisation patterns
+- Maintenance history indicators
+- Operational workload metrics
+- Fuel consumption behaviour
+- Historical breakdown events
+
+These variables were used to:
+
+- Identify factors associated with vehicle breakdowns
+- Quantify predictive risk drivers
+- Develop machine learning models for breakdown prediction
+- Support proactive maintenance planning decisions
+
+### Target Variable
+
+The predictive models were trained to estimate:
+
+- **breakdown = 1** → Vehicle experienced a breakdown
+- **breakdown = 0** → Vehicle did not experience a breakdown
+
+This binary target variable forms the basis of the predictive maintenance modelling process.---
+
+## 5. Data Preparation
 
 - Verified data completeness and structure  
 - Removed non-predictive identifiers (`vehicle_id`, `driver_id`)  
@@ -367,7 +469,7 @@ The dataset consists of simulated fleet operational data reflecting real-world l
 
 ---
 
-## 5. Exploratory Data Analysis
+## 6. Exploratory Data Analysis
 
 Key insights:
 
@@ -378,7 +480,7 @@ Key insights:
 
 ---
 
-## 6. Model Development
+## 7. Model Development
 
 Two models were implemented:
 - Logistic Regression  
@@ -386,23 +488,38 @@ Two models were implemented:
 
 ---
 
-## 7. Model Comparison
+## 8. Model Performance Summary
 
-| Model | Insight |
-|------|--------|
-| Logistic Regression | Better breakdown detection |
-| Random Forest | No significant improvement |
-
-### Key Finding:
-Simpler models performed better, indicating linear relationships in the data.
+| Metric    | Logistic Regression | Random Forest |
+| --------- | ------------------- | ------------- |
+| Accuracy  | 0.77                | 0.78          |
+| Precision | 0.81                | 0.82          |
+| Recall    | 0.78                | 0.79          |
+| F1 Score  | 0.80                | 0.81          |
 
 ---
-## 8. Power BI Operationalisation
+
+## 9. Model Comparison & Interpretation
+
+Both models delivered strong predictive performance on the synthetic fleet dataset.
+
+Random Forest achieved marginally higher Accuracy, Precision, Recall and F1 Score, indicating a slightly stronger ability to identify vehicle breakdown risk.
+
+Logistic Regression remained highly competitive while offering superior interpretability through model coefficients, making it easier to explain the influence of operational and maintenance variables.
+
+### Key Takeaway
+
+For maximum predictive performance, Random Forest would be selected.
+
+For situations where model explainability and transparency are priorities, Logistic Regression remains a valuable alternative.
+
+---
+
+## 10. Power BI Operationalisation
 
 ## . Executive Fleet Risk Command Centre
 
-![Executive Dashboard](dashboards/screenshots/01_executive_fleet_risk_command_centre.png)
-
+[Executive Dashboard](images/01_Executive%20Dashboard%20Preview.png)
 ### Key Insights
 - Fleet risk exposure remains concentrated in low-to-medium risk vehicles
 - High-risk vehicles require immediate preventive maintenance intervention
@@ -431,7 +548,7 @@ Simpler models performed better, indicating linear relationships in the data.
 - Correlation analysis reveals operational stress relationships
 
 
-## 9. Business Impact
+## 11. Business Impact
 
 - Enables proactive maintenance planning  
 - Reduces downtime and repair costs  
@@ -442,7 +559,7 @@ Interpretability is critical in operations — Logistic Regression provides both
 
 ---
 
-## 10. Full Analysis Notebook
+## 12. Full Analysis Notebook
 
 👉 [Open Notebook](notebooks/fleet_analysis.ipynb)
 
