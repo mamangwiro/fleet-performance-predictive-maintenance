@@ -70,8 +70,6 @@ The project showcases practical skills relevant to Data Analyst, Business Analys
 ### Executive Fleet Risk Command Centre
 
 **Business Problem**
-![Executive Fleet Risk Command Centre](images/01_Executive%20Dashboard%20Preview.png)
-
 Fleet managers often react to vehicle breakdowns after they occur, resulting in unplanned downtime, service disruptions and increased maintenance costs.
 
 **Objective**
@@ -140,8 +138,6 @@ Analyse maintenance costs alongside predicted breakdown events to identify areas
 
 ![Maintenance Cost & Failure Analysis](images/02_Maintenance%20and%20Cost%20Analysis%20Report.png)
 
-<<<<<<< HEAD
-
 ### Predictive Risk Driver Explorer
 
 **Business Problem**
@@ -177,14 +173,6 @@ Identify and visualise the operational and maintenance factors that most strongl
 
 ![Predictive Risk Driver Explorer](images/03_Predictive%20Risk%20Driver%20Explorer.png)
 
-
-=======
-![Maintenance Cost & Failure Analysis](images/02_Maintenance%20and%20Cost%20Analysis%20Report.png)
-
-### Predictive Risk Driver Explorer
-
-![Predictive Risk Driver Explorer](images/03_Predictive%20Risk%20Driver%20Explorer.png)
->>>>>>> main
 ---
 
 ## 🛠 Key Skills Demonstrated
